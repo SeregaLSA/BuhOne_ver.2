@@ -1,0 +1,21 @@
+.content {
+    display: flex;
+    
+    
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 40px;
+
+        a, p {
+            display: flex;
+        }
+        li {
+            align-items: center;
+        }
+        span {
+            margin-left: 15px;
+        }
+    }
+
+}
