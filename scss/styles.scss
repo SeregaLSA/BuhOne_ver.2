@@ -28,9 +28,10 @@ ul {
 
 h1 {
     font-size: 48px;
-    font-weight: 700;
-    line-height: 66.37px;
+    font-weight: $bold;
+    //line-height: 66px;
     color: $color-white;
+    letter-spacing: 1px;
 }
 
 .wrapper {

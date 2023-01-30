@@ -1,0 +1,49 @@
+.first {
+    background-image: url('../../img/first/first_fon.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__left {
+        width: 50%;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 80px;
+
+        h1 { 
+            padding-top: 170px;
+        }
+        
+    }
+
+   &__slaider {
+        display: flex;
+        column-gap: 40px;
+        padding: 120px 0 112px;
+    }
+
+    &__right {
+        width: 50%;
+    }
+
+    .button_slaider {
+        display: flex;
+        justify-content: flex-end;
+        padding: 597px 0 112px;
+    }
+
+    &__button_left {
+        backgraund-opasiti: 0.5;
+    }
+}
