@@ -8,10 +8,18 @@
 
     &_first-left {
         background-color: rgba(255, 255, 255, 0.2);
+        
+        &:hover {
+            background-color: rgba(76, 184, 246, 0.5);
+        }
     }
 
     &_first-right {
         background-color: rgba(255, 255, 255, 0.5);
+
+        &:hover {
+            background-color: rgba(76, 184, 246, 0.5);
+        }
     }
 
 

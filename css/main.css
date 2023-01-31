@@ -401,7 +401,7 @@ h1 {
 }
 
 .first {
-  background-image: url("/../img/first/first_fon.png");
+  background-image: url("../img/first/first_fon.png");
   margin: 0 auto;
   width: 100%;
   height: 100%;
@@ -451,8 +451,14 @@ h1 {
 .bt-slaider_first-left {
   background-color: rgba(255, 255, 255, 0.2);
 }
+.bt-slaider_first-left:hover {
+  background-color: rgba(76, 184, 246, 0.5);
+}
 .bt-slaider_first-right {
   background-color: rgba(255, 255, 255, 0.5);
+}
+.bt-slaider_first-right:hover {
+  background-color: rgba(76, 184, 246, 0.5);
 }
 
 /*# sourceMappingURL=main.css.map */
