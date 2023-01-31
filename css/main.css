@@ -438,6 +438,40 @@ h1 {
   padding: 497px 0 112px;
 }
 
+@media (max-width: 640px) {
+  .first .wrapper {
+    flex-direction: column;
+  }
+  .first__left {
+    width: 100%;
+  }
+  .first__info {
+    justify-content: space-between;
+    row-gap: 40px;
+    align-items: center;
+  }
+  .first__info h1 {
+    text-align: center;
+    padding-top: 60px;
+  }
+  .first__slaider {
+    column-gap: 40px;
+    padding: 120px 0 50px;
+    justify-content: center;
+  }
+  .first__right {
+    width: 100%;
+  }
+  .first .first__button_slaider {
+    justify-content: center;
+    padding: 0 0 90px;
+  }
+}
+@media (max-width: 450px) {
+  .first__info h1 {
+    font-size: 32px;
+  }
+}
 .bt-slaider {
   width: 60px;
   height: 60px;
