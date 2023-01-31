@@ -1,0 +1,57 @@
+.specialization {
+    display: flex;
+    background-color: $color-fon;
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 40px;
+        padding: 140px 0 102px;
+    }
+
+    &__title-1 {
+        //на всякий случай
+    }
+
+    &__title-2 {
+        @include title-2-style;
+    
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    &__card1 {
+        width: 350px;
+        max-width: 100%;
+        height: 360px;
+        max-height: 100%;
+        background-image: url('../img/specialization/card-1.png');
+    }
+
+    &__card2 {
+            width: 350px;
+            max-width: 100%;
+            height: 360px;
+            max-height: 100%;
+            background-image: url('../img/specialization/card-2.png');
+    }
+
+    .card_text {
+            padding: 261px 118px 45px 45px;
+            font-size: 24px;
+            color: $color-white;
+            font-weight: $extra-bold;
+            line-height: 126%;
+        }
+}

@@ -29,9 +29,12 @@ ul {
 h1 {
     font-size: 48px;
     font-weight: $bold;
-    //line-height: 66px;
     color: $color-white;
     letter-spacing: 1px;
+}
+
+h2 {
+    @include h2-style;
 }
 
 .wrapper {
