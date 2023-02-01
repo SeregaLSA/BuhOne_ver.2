@@ -520,6 +520,7 @@ h2 {
   width: 100%;
   column-gap: 30;
   flex-wrap: wrap;
+  padding-bottom: 120px;
 }
 .specialization__card1 {
   width: 350px;
