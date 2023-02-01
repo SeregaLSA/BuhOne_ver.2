@@ -10,25 +10,28 @@
         padding: 140px 0 102px;
     }
 
-    &__title-1 {
+   /* &__title-1 {
         //на всякий случай
-    }
+    }  */
 
     &__title-2 {
         @include title-2-style;
     
     }
 
-    &__cards {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    &__column {
+   &__cards {
         display: flex;
         flex-direction: column;
         row-gap: 30px;
+
+        .wrapper {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            column-gap: 30;
+            flex-wrap: wrap;
+            
+        }
     }
 
     &__card1 {
@@ -37,6 +40,7 @@
         height: 360px;
         max-height: 100%;
         background-image: url('../img/specialization/card-1.png');
+        margin-bottom: 30px;
     }
 
     &__card2 {
@@ -45,6 +49,7 @@
             height: 360px;
             max-height: 100%;
             background-image: url('../img/specialization/card-2.png');
+            margin-bottom: 30px;
     }
 
     .card_text {
@@ -54,4 +59,64 @@
             font-weight: $extra-bold;
             line-height: 126%;
         }
+}
+
+@media (max-width: 800px) {
+    .specialization {
+    
+    &__title-1 {
+        text-align: center;
+    }
+
+    &__title-2 {
+        text-align: center;    
+    }
+    }
+}
+
+@media (max-width: 540px) {
+    .specialization {
+
+        &__title {
+            row-gap: 40px;
+            padding: 70px 0 50px;
+            }
+    
+        &__title-1 {
+            text-align: center;
+        }
+
+        &__title-2 {
+            font-size: 24px;
+            text-align: center;    
+        }
+
+        &__cards {
+            row-gap: 30px;
+
+            .wrapper {
+                justify-content: space-between;
+                flex-direction: column;
+                align-items: center;
+                column-gap: 30px;
+            }
+        }
+
+        &__card1 {
+            margin-bottom: 0px;
+        }
+
+        &__card2 {
+            margin-bottom: 0px;
+        }
+
+        .card_text {
+            padding: 220px 0 45px;
+             font-size: 24px;
+            color: $color-white;
+            font-weight: $extra-bold;
+            line-height: 126%; 
+        }
+
+    }
 }
