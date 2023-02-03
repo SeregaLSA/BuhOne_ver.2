@@ -23,4 +23,21 @@
     }
 
 
+    &_riviews-left {
+        background-color: rgba(0, 95, 163, 0.2);
+        
+        &:hover {
+            background-color: rgba(4, 62, 96);
+        }
+    }
+
+    &_riviews-right {
+        background-color: rgba(0, 95, 163, 1);
+
+        &:hover {
+            background-color: rgb(4, 62, 96);
+        }
+    }
+
+
 }

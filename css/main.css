@@ -488,6 +488,18 @@ h2 {
 .bt-slaider_first-right:hover {
   background-color: rgba(76, 184, 246, 0.5);
 }
+.bt-slaider_riviews-left {
+  background-color: rgba(0, 95, 163, 0.2);
+}
+.bt-slaider_riviews-left:hover {
+  background-color: rgb(4, 62, 96);
+}
+.bt-slaider_riviews-right {
+  background-color: rgb(0, 95, 163);
+}
+.bt-slaider_riviews-right:hover {
+  background-color: rgb(4, 62, 96);
+}
 
 .specialization {
   display: flex;
@@ -588,6 +600,82 @@ h2 {
     font-weight: 900;
     line-height: 126%;
   }
+}
+.riviews {
+  display: flex;
+  background-color: #EBEBEB;
+  flex-direction: column;
+}
+.riviews__title .wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 140px 0 80px;
+}
+.riviews__title2 {
+  font-size: 48px;
+  line-height: 69px;
+  font-weight: 900;
+  color: #333333;
+}
+.riviews .riview {
+  display: flex;
+}
+.riviews .riview .wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 58px;
+  background-color: #E5E5E5;
+  padding: 45px 95px;
+}
+.riviews .riview__text {
+  font-size: 18px;
+  line-height: 138%;
+  font-weight: 300;
+  color: #000000;
+}
+.riviews .riview__user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 35px;
+}
+.riviews .riview__user .user_data {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.riviews .riview__user .user-name {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+}
+.riviews .riview__user .user-post {
+  font-size: 14px;
+  font-weight: 400;
+}
+.riviews__slaider {
+  display: flex;
+}
+.riviews__slaider .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.riviews__slaider .wrapper .riviews__ellipse {
+  display: flex;
+  column-gap: 40px;
+  width: 10px;
+}
+.riviews__slaider .wrapper .riviews__ellipse img {
+  max-width: 100%;
+}
+.riviews__slaider .wrapper .riviews__slaider-button {
+  display: flex;
+}
+.riviews__slaider .wrapper .riviews__slaider-button .riviews__button_slaider {
+  display: flex;
 }
 
 /*# sourceMappingURL=main.css.map */
